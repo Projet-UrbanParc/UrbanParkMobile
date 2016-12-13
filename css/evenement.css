@@ -57,10 +57,10 @@ body{
 }
 
 /*=========================================================*/
-/*   RESPONSIVE   (min-width: 360px and max-width: 800px)  */
+/*   RESPONSIVE   (min-width: 320px and max-width: 800px)  */
 /*=========================================================*/
 
-@media all and (min-width: 360px) and (max-width: 800px) {
+@media all and (min-width: 320px) and (max-width: 800px) {/*Modifié le 13/12/16 par Kévin*/
 
   /*Header*/
   header{
@@ -170,8 +170,9 @@ body{
     text-shadow: none;
   }
 
-  main{/*Modifié le 13/12/16 par Kévin*/
-    background-color: #6B2E22;
+  main{/*Modifié le 13/12/16 par Kévin (A voir pour la couleur)*/
+    /*background-color: #6B2E22;*/
+      background-color: #505050;
   }
 
   section{

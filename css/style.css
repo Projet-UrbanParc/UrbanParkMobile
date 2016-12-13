@@ -57,10 +57,10 @@ body{
   color: #CE3877;
 }
 /*=========================================================*/
-/*   RESPONSIVE   (min-width: 360px and max-width: 800px)  */
+/*   RESPONSIVE   (min-width: 320px and max-width: 800px)  */
 /*=========================================================*/
 
-@media all and (min-width: 360px) and (max-width: 800px) {
+@media all and (min-width: 320px) and (max-width: 800px) {/*Modifié le 13/12/16 par Kévin*/
 
   /*Header*/
   header{
@@ -76,10 +76,10 @@ body{
   }
 
   h1{
-    color: #CF661B;
+    color: white;/*Modifié le 13/12/16 par Kévin*/
     font-family: sans-serif;
     text-shadow: 1px 2px #000;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: 20px;
     padding: 20px;
   }
@@ -168,9 +168,11 @@ body{
     text-shadow: none;
   }
 
+  main{
+    background-color: #505050;
+  }
   section{
     padding: 5px;
-    background-color: #505050;
   }
 
   aside{
