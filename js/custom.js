@@ -1,6 +1,12 @@
-/*==============================*/
-/*         GRAND ECRAN          */
-/*==============================*/
+$(document).ready(function(){
+  $('.btn-navigation').click(function(){
+    $(this).find('.barre').toggleClass('white');
+    $('nav').toggleClass('isOpen');
+  });
+});
+/*=======================================*/
+/*         HORRAIRE GRAND ECRAN          */
+/*=======================================*/
 $(function(){
   $('#horaire').hide();
   $('#infohoraire').hover(function(){
@@ -9,9 +15,9 @@ $(function(){
     $('#horaire').fadeOut();
   });
 });
-/*==============================*/
-/*         PETIT ECRAN          */
-/*==============================*/
+/*=======================================*/
+/*         HORRAIRE PETIT ECRAN          */
+/*=======================================*/
 $(function(){
   $("#horairetel").hide();
   $("#infohorairetel").click(function(){

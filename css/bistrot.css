@@ -29,32 +29,32 @@ p{
 }
 
 body{
-  background: url('../images/bgbistro.jpg');
+  /*background: url('../images/bgbistro.jpg');*//*Modifié le 13/12/16 par Kévin*/
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.accueil:hover{
-  color: #03758D;
-}
-
-.accrobranche:hover{
-  color: #025515;
-}
-
-.skatpark:hover{
-  color: #33AC91;
-}
-
-.bistrot:hover{
+#accueil:hover{/*Modifié le 13/12/16 par Kévin*/
   color: #FF792F;
 }
 
-.evenementM:hover{
+#accrobranche:hover{/*Modifié le 13/12/16 par Kévin*/
+  color: #025515;
+}
+
+#skatpark:hover{/*Modifié le 13/12/16 par Kévin*/
+  color: #33AC91;
+}
+
+#bistrot:hover{/*Modifié le 13/12/16 par Kévin*/
+  color: #C8BC17;
+}
+
+#evenementM:hover{/*Modifié le 13/12/16 par Kévin*/
   color: #E93F34;
 }
 
-.anniversaire:hover{
+#anniversaire:hover{/*Modifié le 13/12/16 par Kévin*/
   color: #CE3877;
 }
 
@@ -72,13 +72,14 @@ body{
     align-items: center;
     width: 100%;
     height: 250px;
+    border-bottom: 3px solid #EADC15;
     background: url('../images/bistro.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   h1{
-    color: #FF792F;
+    color: #EADC15;
     font-family: sans-serif;
     text-shadow: 1px 2px #000;
     font-size: 30px;
@@ -102,14 +103,14 @@ body{
   .btn-navigation .barre{
   	width: 25px;
   	height: 4px;
-  	background: #FF792F;
+  	background: #EADC15;
   	margin-top: 3px;
   	transition: background .3s ease-in-out;
   	-webkit-transition: background .3s ease-in-out;
   }
 
   .btn-navigation .barre.white{
-  	background: #FF792F;
+  	background: #EADC15;
   }
 
   nav.isOpen{
@@ -159,16 +160,20 @@ body{
 /* MILIEU DE PAGE */
 
   h3{
-    color: #FF792F;
+    color: #DED331;
     text-align: center;
     font-size: 19px;
-    text-shadow: 3px 3px 3px #AC4913;
+    text-shadow: 3px 3px 3px #C8BC17;
   }
 
   p{
     color: #fff;
     font-size: 14px;
     text-shadow: none;
+  }
+
+  main{/*Modifié le 13/12/16 par Kévin*/
+    background-color: #797224;
   }
 
   section{
@@ -180,14 +185,14 @@ body{
     margin-top: 20px;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.6);
-    border: solid 2px #FF792F;
+    border: solid 2px #EADC15;
     border-radius: 10px;
   }
 
   article{
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.6);
-    border: solid 2px #FF792F;
+    border: solid 2px #EADC15;
     border-radius: 10px;
   }
 
@@ -214,7 +219,7 @@ body{
   .fa{
     margin: 15px;
     font-size: 40px;
-    color: #FF792F;
+    color: #EADC15;
     cursor:pointer;
     transition: 1s;
   }
@@ -224,7 +229,7 @@ body{
   }
 
   .fa-map:hover{
-    color: #C7BC00;
+    color: red;
   }
 
   .fa-info-circle:hover{
